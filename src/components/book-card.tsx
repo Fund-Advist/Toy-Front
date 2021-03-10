@@ -5,11 +5,13 @@ import styled from "@emotion/styled";
 export const BookCard = () => {
   return (
     <Container>
-      <Image src="https://d2v80xjmx68n4w.cloudfront.net/gigs/bNuAr1602485711.jpg" />
-      <Content>
-        <Title>전자책 부문 1위 '돈 버는 전자책 작성법 2021'을 드립니다.</Title>
-        <Price>22,000원</Price>
-      </Content>
+      <a href="/detail">
+        <Image src="https://d2v80xjmx68n4w.cloudfront.net/gigs/bNuAr1602485711.jpg" />
+        <Content>
+          <Title>전자책 부문 1위 '돈 버는 전자책 작성법 2021'을 드립니다.</Title>
+          <Price>22,000원</Price>
+        </Content>
+      </a>
     </Container>
   );
 };
